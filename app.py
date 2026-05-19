@@ -100,7 +100,7 @@ st.markdown("""
 # ── Load Data ────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/processed/agrosphere_data.csv")
+    df = pd.read_csv("agrosphere_data.csv")
     df["Undernourishment_Pct"] = df["Undernourishment_Pct"].replace("<2.5", 2.5)
     df["Undernourishment_Pct"] = pd.to_numeric(df["Undernourishment_Pct"], errors="coerce")
     df.dropna(inplace=True)
