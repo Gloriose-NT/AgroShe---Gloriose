@@ -823,6 +823,6 @@ elif page == "📥 Download & Export":
 # ── Footer ───────────────────────────────────────────────
 st.markdown("""
 <div class='footer'>
-    🌱 AgroShe - The Future We Aspire 🌱
+    🌱 AgroShe - The Future We Aspire - By Gloriose NT 🌱
 </div>
 """, unsafe_allow_html=True)
